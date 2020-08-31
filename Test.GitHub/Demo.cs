@@ -8,6 +8,8 @@ namespace Test.GitHub
     {
         public void Test2()
         {
+            int variabel = 0;
+            //
             // Jag lägger till en kommentar
         }
 
