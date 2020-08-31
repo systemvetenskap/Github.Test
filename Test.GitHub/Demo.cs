@@ -8,6 +8,7 @@ namespace Test.GitHub
     {
         public void Test2()
         {
+            int variabel = 0;
             //
         }
     }
