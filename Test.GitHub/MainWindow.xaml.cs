@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Automation.Peers;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -23,6 +24,23 @@ namespace Test.GitHub
         public MainWindow()
         {
             InitializeComponent();
+
+            BankAccount account = new SavingsAccount();
+            account.Interest = 34;
+
+            Tacos tacos = new Tacos();
+            tacos.Ingrediens.Add(new Tomato());
+            tacos.Ingrediens.Add(new Tomato());
+            tacos.Ingrediens.Add(new Tomato());
+            tacos.Ingrediens.Add(new Tomato());
+
+            tacos.Ingrediens.Add(new Cheese());
+            tacos.Ingrediens.Add(new Meat());
+
+            foreach (var ingredient in tacos.Ingrediens)
+            {
+                ingredient.Chop();
+            }
         }
     }
 }

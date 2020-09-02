@@ -1,0 +1,16 @@
+﻿Tacos
+
+ost
+Grönsaker
+-- gurka
+.. tomat
+banan
+ananas
+salsa
+jordnötssmör
+köttfärs
+
+
+
+Abstract vs Static
+
