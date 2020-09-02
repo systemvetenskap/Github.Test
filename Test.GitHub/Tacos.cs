@@ -38,13 +38,5 @@ namespace Test.GitHub
 
     }
 
-    public class Meat : IGoodForTacos
-    {
-        public bool IsEdibleRaw .NotImplementedException(); }
-
-        public void Chop()
-        {
-            throw new System.NotImplementedException();
-        }
-    }
+   
 }

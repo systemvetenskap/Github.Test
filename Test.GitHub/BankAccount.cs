@@ -1,14 +1,14 @@
 ﻿namespace Test.GitHub
 {
     
-    public abstract class BankAccount
+    public abstract class BankAccount : IDeposit
     {
         public decimal Interest { get; set; }
       
 
         public virtual void Deposit(decimal value)
         {
-
+            // aslfjalsdfj 
         }
 
         public void Insert()
